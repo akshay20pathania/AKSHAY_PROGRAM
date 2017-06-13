@@ -2,7 +2,7 @@
 
 Class largest_array
 {
-static void main(String {} args)
+Static void main(String {} args)
   {
 
     int arr[]={36,12,19,51,37,89,81,100};
@@ -20,6 +20,8 @@ static void main(String {} args)
        largest=arr[i];
        }
     }
+    
+    Console.Writeline(" The largest element ")
     Console.Write(largest) // largest element of array ;
   }
 }
