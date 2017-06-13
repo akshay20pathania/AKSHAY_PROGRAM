@@ -1,0 +1,42 @@
+
+-----Program to sort the unsorted array in ascending------
+------- Using selection sort method --------- 
+
+
+Class sort_array
+{
+Static void main(String[] args)
+  {
+
+    int arr[]={21,11,43,8,36,89,81,100,92,45};
+    for(int i=0;i<10;i++)
+    {
+       Console.Writeline("The element of array");
+       Console.Write(arr[i]);
+       Console.Writeline("    ");
+     }
+     
+      int pos_min,temp;
+      for(int i=0;i<arr.length-1;i++)
+     {
+        pos_min=i;
+        for(int j=i+1;j<arr.length;i++)
+        {
+            if(arr[j])<arr[pos_min]
+            {
+           pos_min=j;
+            }
+        }
+          //swapping of elements
+          temp=arr[i];
+          arr[i]=arr[pos_min];
+          arr[pos_min]=temp;
+       }
+      Console.Writeline("The array after sorting")
+       for(int i=0;i<10;i++)
+        {
+         Console.Write(arr[i]);
+        }
+       
+    }
+  }
