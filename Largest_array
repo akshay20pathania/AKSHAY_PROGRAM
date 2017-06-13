@@ -21,7 +21,7 @@ Static void main(String {} args)
        }
     }
     
-    Console.Writeline(" The largest element ")
+    Console.Writeline(" The largest element ");
     Console.Write(largest) // largest element of array ;
   }
 }
