@@ -1,0 +1,25 @@
+-------Proram to find the largest element of array----
+
+Class largest_array
+{
+static void main(String {} args)
+  {
+
+    int arr[]={36,12,19,51,37,89,81,100};
+    for(int i=0;i<10;i++)
+    {
+       Console.Writeline("The element of array");
+       Console.Write(arr[i]);
+       Console.Writeline("    ");
+    }
+    int largest=arr[0]  //taking first element of array as largest number;
+    for(int i=0;i<10;i++)
+    {
+       if(arr[i]>largest)
+       {
+       largest=arr[i];
+       }
+    }
+    Console.Write(largest) // largest element of array ;
+  }
+}
